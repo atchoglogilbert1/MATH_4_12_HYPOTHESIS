@@ -33,8 +33,13 @@ The **alternative hypothesis is not necessarily what we want to happen**. It is 
 
 The **lower the significance level**, the **stronger the evidence must be** before you can reject the null hypothesis.
 
+
 - \(\alpha = 0.10\): Relatively weak evidence may be accepted.
 - \(\alpha = 0.05\): Stronger evidence is required.
 - \(\alpha = 0.01\): Very strong evidence is required.
 
 A lower significance level makes us more cautious about claiming that a genuine effect exists.
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/cbd33e70-bf08-4df7-a295-43d0b212b0ba" />
+
