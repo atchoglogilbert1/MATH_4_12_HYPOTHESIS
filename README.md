@@ -10,14 +10,12 @@
 
 Hypothesis testing helps answer this question.
 
----
+## Null vs Alternative
 
 - **Null hypothesis:** \(H_0\) — The new algorithm is not faster.
 - **Alternative hypothesis:** \(H_1\) — The new algorithm is faster.
 
-- --
-
-### Summary
+## Hypothesis Rejection
 
 - **Null hypothesis:** The new algorithm is not genuinely faster.
 - **Alternative hypothesis:** The new algorithm is genuinely faster.
