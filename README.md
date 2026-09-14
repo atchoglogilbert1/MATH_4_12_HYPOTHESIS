@@ -43,3 +43,23 @@ A lower significance level makes us more cautious about claiming that a genuine 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/cbd33e70-bf08-4df7-a295-43d0b212b0ba" />
 
+
+## Values and Formulas
+
+| Value | Formula | Result | Purpose |
+|---|---|---:|---|
+| Differences | \(d_i=\text{existing}_i-\text{new}_i\) | \(5,6,2,9,4,8,4,8,5,8\) ms | Measures the improvement for each test case |
+| Sample size | \(n=\text{number of pairs}\) | \(10\) | Number of paired measurements |
+| Sum of differences | \(\sum d_i\) | \(59\) ms | Used to calculate the mean difference |
+| Mean difference | \(\bar d=\frac{\sum d_i}{n}\) | \(5.9\) ms | Average improvement |
+| Sum of squared deviations | \(\sum(d_i-\bar d)^2\) | \(46.9\) | Measures total variation around the mean |
+| Sample variance | \(s_d^2=\frac{\sum(d_i-\bar d)^2}{n-1}\) | \(5.21\text{ ms}^2\) | Average squared variation |
+| Sample standard deviation | \(s_d=\sqrt{s_d^2}\) | \(2.28\) ms | Measures how much the improvements vary |
+| Standard error | \(SE=\frac{s_d}{\sqrt n}\) | \(0.72\) ms | Measures the uncertainty of the mean improvement |
+| Test statistic | \(t=\frac{\bar d-0}{SE}\) | \(8.17\) | Compares the improvement with its uncertainty |
+| Degrees of freedom | \(df=n-1\) | \(9\) | Selects the correct \(t\)-distribution |
+| Significance level | Chosen before the test | \(\alpha=0.05\) | Defines how strong the evidence must be |
+| Critical value | From the one-sided \(t\)-table using \(df=9\) and \(\alpha=0.05\) | \(1.833\) | Threshold for rejecting the null hypothesis |
+| Decision rule | Reject \(H_0\) if \(t>t_{\text{critical}}\) | \(8.17>1.833\) | Determines the final decision |
+| Final result | Based on the decision rule | Reject \(H_0\) | Evidence supports that the new algorithm is genuinely faster |
+
