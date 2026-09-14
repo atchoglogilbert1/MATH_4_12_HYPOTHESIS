@@ -63,3 +63,9 @@ A lower significance level makes us more cautious about claiming that a genuine 
 | Decision rule | Reject \(H_0\) if \(t>t_{\text{critical}}\) | \(8.17>1.833\) | Determines the final decision |
 | Final result | Based on the decision rule | Reject \(H_0\) | Evidence supports that the new algorithm is genuinely faster |
 
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/df1af6b1-6d71-4ee6-b928-c192d5dcc402" />
+
+
+
