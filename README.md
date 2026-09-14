@@ -23,3 +23,7 @@ Hypothesis testing helps answer this question.
 - **Fail to reject the null hypothesis:** The evidence is not strong enough to make that conclusion.
 
 Failing to reject the null hypothesis does **not** prove that both algorithms are equally fast. It only means that the available evidence is insufficient.
+
+## Alternative Hypothesis
+
+The **alternative hypothesis is not necessarily what we want to happen**. It is the specific effect or difference we are testing for.
