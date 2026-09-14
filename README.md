@@ -10,7 +10,7 @@
 
 Hypothesis testing helps answer this question.
 
---
+---
 
 - **Null hypothesis:** \(H_0\) — The new algorithm is not faster.
 - **Alternative hypothesis:** \(H_1\) — The new algorithm is faster.
